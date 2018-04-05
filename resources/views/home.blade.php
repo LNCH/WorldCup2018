@@ -8,7 +8,7 @@
             <div class="col-md-3 text-center">
                 <h4>{{ $team->name }}</h4>
                 
-                <span class="flag-icon flag-icon-{{ strtolower(substr($team->code, 0, 2)) }}"></span>
+                {!! $team->flag !!}
             </div>
         @endforeach
         
