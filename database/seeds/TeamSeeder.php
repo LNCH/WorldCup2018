@@ -2,6 +2,7 @@
 
 use App\Team;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class TeamSeeder extends Seeder
 {
@@ -12,6 +13,8 @@ class TeamSeeder extends Seeder
      */
     public function run()
     {
+        DB::table("teams")->truncate();
+        
         $teams = config("teams");
         foreach ($teams as $code => $info)
         {
@@ -20,7 +23,7 @@ class TeamSeeder extends Seeder
             $data = [
                 'code' => $code,
                 'name' => $dataInfo[0],
-                'display_code' => $dataInfo[1] !== "" ? $dataInfo[1] : $code,
+                'display_code' => $dataInfo[1],
                 'fifa_ranking' => $dataInfo[2],
                 'group' => $dataInfo[3]
             ];
