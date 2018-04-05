@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Team;
 use Illuminate\Http\Request;
+use Illuminate\Http\Response;
 
 class HomeController extends Controller
 {
@@ -19,10 +21,12 @@ class HomeController extends Controller
     /**
      * Show the application dashboard.
      *
-     * @return \Illuminate\Http\Response
+     * @return Response
      */
     public function index()
     {
-        return view('home');
+        $teams = Team::orderBy("group")->orderBy("name")->get();
+        
+        return view('home', compact("teams"));
     }
 }
