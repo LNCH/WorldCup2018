@@ -3,88 +3,88 @@
 return [
   
     '2018-06-14' => [
-        '16:00' => 'RUS,SAU,ITV'
+        '16:00' => 'RU,SA,ITV'
     ],
     
     '2018-06-15' => [
-        '13:00' => 'EGY,URY,BBC',
-        '16:00' => 'MAR,IRN,ITV',
-        '19:00' => 'PRT,ESP,BBC',
+        '13:00' => 'EG,UY,BBC',
+        '16:00' => 'MA,IR,ITV',
+        '19:00' => 'PR,ES,BBC',
     ],
     
     '2018-06-16' => [
-        '11:00' => 'FRA,AUS,BBC',
-        '14:00' => 'ARG,ISL,ITV',
-        '17:00' => 'PER,DNK,BBC',
-        '20:00' => 'HRV,NGA,ITV',
+        '11:00' => 'FR,AU,BBC',
+        '14:00' => 'AR,IS,ITV',
+        '17:00' => 'PE,DK,BBC',
+        '20:00' => 'HR,NG,ITV',
     ],
     
     '2018-06-17' => [
-        '13:00' => 'CRI,SRB,ITV',
-        '16:00' => 'DNK,MEX,BBC',
-        '19:00' => 'BRA,CHE,ITV',
+        '13:00' => 'CR,SR,ITV',
+        '16:00' => 'DK,ME,BBC',
+        '19:00' => 'BR,CH,ITV',
     ],
     
     '2018-06-18' => [
-        '13:00' => 'SWE,KOR,ITV',
-        '16:00' => 'BEL,PAN,BBC',
-        '19:00' => 'TUN,GBR,BBC',        
+        '13:00' => 'SE,KR,ITV',
+        '16:00' => 'BE,PA,BBC',
+        '19:00' => 'TN,GB,BBC',
     ],
     
     '2018-06-19' => [
-        '13:00' => 'COL,JPN,BBC',
-        '16:00' => 'POL,SEN,ITV',
-        '19:00' => 'RUS,EGY,BBC',   
+        '13:00' => 'CO,JP,BBC',
+        '16:00' => 'PL,SN,ITV',
+        '19:00' => 'RU,EG,BBC',
     ],
     
     '2018-06-20' => [
-        '13:00' => 'PRT,MAR,BBC',
-        '16:00' => 'URY,SAU,BBC',
-        '19:00' => 'IRN,ESP,ITV',   
+        '13:00' => 'PR,MA,BBC',
+        '16:00' => 'UY,SA,BBC',
+        '19:00' => 'IR,ES,ITV',
     ],
     
     '2018-06-21' => [
-        '13:00' => 'DNK,AUS,ITV',
-        '16:00' => 'FRA,PER,ITV',
-        '19:00' => 'ARG,HRV,BBC',   
+        '13:00' => 'DK,AU,ITV',
+        '16:00' => 'FR,PE,ITV',
+        '19:00' => 'AR,HR,BBC',
     ],
     
     '2018-06-22' => [
-        '13:00' => 'BRA,CRI,ITV',
-        '16:00' => 'NGA,ISL,BBC',
-        '19:00' => 'SRB,CHE,BBC',   
+        '13:00' => 'BR,CR,ITV',
+        '16:00' => 'NG,IS,BBC',
+        '19:00' => 'SR,CH,BBC',
     ],
     
     '2018-06-23' => [
-        '13:00' => 'BEL,TUN,BBC',
-        '16:00' => 'KOR,MEX,ITV',
-        '19:00' => 'DEU,SWE,ITV',   
+        '13:00' => 'BE,TN,BBC',
+        '16:00' => 'KR,ME,ITV',
+        '19:00' => 'DE,SE,ITV',
     ],
     
     '2018-06-24' => [
-        '13:00' => 'GBR,PAN,BBC',
-        '16:00' => 'JPN,SEN,BBC',
-        '19:00' => 'POL,COL,ITV',   
+        '13:00' => 'GB,PA,BBC',
+        '16:00' => 'JP,SN,BBC',
+        '19:00' => 'PL,CO,ITV',
     ],
     
     '2018-06-25' => [
-        '15:00' => 'URY,RUS,ITV|SAU,EGY,ITV 4',
-        '19:00' => 'IRN,PRT,BBC|ESP,MAR,BBC', 
+        '15:00' => 'UY,RU,ITV|SA,EG,ITV 4',
+        '19:00' => 'IR,PR,BBC|ES,MA,BBC',
     ],
     
     '2018-06-26' => [
-        '15:00' => 'DNK,FRA,ITV|AUS,PER,ITV 4',
-        '19:00' => 'NGA,ARG,BBC|ISL,HRV,BBC', 
+        '15:00' => 'DK,FR,ITV|AU,PE,ITV 4',
+        '19:00' => 'NG,AR,BBC|IS,HR,BBC',
     ],
     
     '2018-06-27' => [
-        '15:00' => 'KOR,DEU,BBC|MEX,SWE,BBC',
-        '19:00' => 'SRB,BRA,ITV|CHE,CRI,ITV 4', 
+        '15:00' => 'KR,DE,BBC|ME,SE,BBC',
+        '19:00' => 'SR,BR,ITV|CH,CR,ITV 4',
     ],
     
     '2018-06-28' => [
-        '15:00' => 'JPN,POL,BBC|SEN,COL,BBC',
-        '19:00' => 'GBR,BEL,ITV|PAN,TUN,ITV 4', 
+        '15:00' => 'JP,PL,BBC|SN,CO,BBC',
+        '19:00' => 'GB,BE,ITV|PA,TN,ITV 4',
     ]
     
 ];

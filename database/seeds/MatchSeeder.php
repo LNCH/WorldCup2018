@@ -14,10 +14,8 @@ class MatchSeeder extends Seeder
      */
     public function run()
     {
-        DB::table("matches")->truncate();
-        
         $matches = config("matches");
-        
+
         foreach ($matches as $date => $times)
         {
             foreach ($times as $time => $matchString)

@@ -13,8 +13,6 @@ class TeamSeeder extends Seeder
      */
     public function run()
     {
-        DB::table("teams")->truncate();
-        
         $teams = config("teams");
         foreach ($teams as $code => $info)
         {
