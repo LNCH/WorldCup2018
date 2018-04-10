@@ -35,6 +35,8 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
                         <li><a href="{{ url("groups") }}" class="nav-link">Group Tables</a></li>
+                        <li><a href="{{ url("matches") }}" class="nav-link">Matches</a></li>
+                        <li><a href="{{ url("predictions") }}" class="nav-link">Predictions</a></li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->

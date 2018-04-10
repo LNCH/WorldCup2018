@@ -19,3 +19,8 @@ Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
 Route::get("/groups", "HomeController@groups");
+
+Route::get("/matches", "HomeController@matches");
+Route::get("/matches/{match}", "HomeController@showMatch");
+
+Route::get("/predictions/", "PredictionsController@index");

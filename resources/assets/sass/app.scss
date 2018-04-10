@@ -13,3 +13,66 @@
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
+
+.group {
+  font-size: 0.6rem;
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.date, .channel {
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.match-card {
+  padding: 1rem;
+  border: 1px solid #ededed;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.score-container {
+  display: flex;
+  align-items: center;
+
+  .team {
+    flex: 0 0 40%;
+    font-size: 1.25rem;
+
+    &.lost {
+      font-size: 0.9rem;
+    }
+
+    &.home {
+      padding-right: 0.5rem;
+      text-align: right;
+
+      .flag-icon {
+        width: 1rem;
+        margin-left: 0.5rem;
+      }
+    }
+
+    &.away {
+      padding-left: 0.5rem;
+      text-align: left;
+
+      .flag-icon {
+        width: 1rem;
+        margin-right: 0.5rem;
+      }
+    }
+  }
+
+  .score, .vs {
+    flex: 0 0 5%;
+    text-align: center;
+  }
+
+  .score {
+    font-size: 1.15rem;
+  }
+}

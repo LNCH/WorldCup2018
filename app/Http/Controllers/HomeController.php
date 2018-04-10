@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Match;
 use App\Team;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
@@ -25,5 +26,12 @@ class HomeController extends Controller
         $groups = Team::getSortedGroups();
 
         return view("groups", compact("groups"));
+    }
+
+    public function matches()
+    {
+        $matches = Match::orderBy("match_date")->get();
+
+        return view("matches", compact("matches"));
     }
 }
